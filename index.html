@@ -11,9 +11,18 @@
   <h1>🐍 Jogo da Cobrinha</h1>
 
   <div class="container">
+
+    <div class="instructions">
+      <h2>Como Jogar</h2>
+      <ul>
+        <li>⬆️ ⬇️ ⬅️ ➡️ Use as setas para se mover</li>
+        <li>Espaço — Pausar/Despausar</li>
+        <li>🚫 Não bata nas bordas ou em si mesmo</li>
+      </ul>
+    </div>
+
     <canvas id="game" width="500" height="500"></canvas>
     <div id="pausado">⏸ Jogo Pausado</div>
-
 
     <div class="sidebar">
       <p id="pontuacao">Pontuação: 0</p>
@@ -21,6 +30,7 @@
       <button id="limparPontuacao">Limpar Maior Pontuação</button>
     </div>
   </div>
+
 
   <script src="script.js"></script>
 </body>
